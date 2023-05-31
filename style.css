@@ -87,3 +87,28 @@ button:hover {
 button:active {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 900px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    h2 {
+    margin-top: 50%;
+    }
+
+    .input-min {
+        margin-right: 0;
+        margin-bottom: 40px;   
+        margin-left: 40px;
+    }
+
+    .input-max {
+        margin-left: 40px;
+    }
+    
+    button {
+        margin-top: 50px;
+    }
+  }
