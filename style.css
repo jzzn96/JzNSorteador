@@ -89,15 +89,16 @@ button:active {
 }
 
 @media screen and (max-width: 900px) {
+    img {
+        padding-bottom: 175px;
+    }
     body {
         width: 100vw;
         height: 100vh;
     }
 
-    h2 {
-    margin-top: 50%;
-    }
-
+    
+    
     .input-min {
         margin-right: 0;
         margin-bottom: 40px;   
